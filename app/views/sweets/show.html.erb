@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Shop:</strong>
+  <%= @sweet.shop %>
+</p>
+
+<p>
+  <strong>Sweet:</strong>
+  <%= @sweet.sweet %>
+</p>
+
+<p>
+  <strong>Detail:</strong>
+  <%= @sweet.detail %>
+</p>
+
+<%= link_to 'Edit', edit_sweet_path(@sweet) %> |
+<%= link_to 'Back', sweets_path %>
